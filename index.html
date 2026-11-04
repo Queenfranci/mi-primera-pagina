@@ -4,21 +4,187 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi primera página web</title>
+    <title>Especialidad de Programación</title>
     <link rel="stylesheet" href="estilos.css">
 </head>
+
 <body>
 
-    <h1>¡Bienvenidos a mi página web!</h1>
+<header>
+    <nav>
+        <h2>PROGRAMACIÓN</h2>
 
-    <h2>Especialidad de Programación</h2>
+        <div class="menu">
+            <a href="#inicio">Inicio</a>
+            <a href="#especialidad">Especialidad</a>
+            <a href="#habilidades">Habilidades</a>
+            <a href="#proyectos">Proyectos</a>
+        </div>
+    </nav>
+</header>
+
+<section id="inicio" class="portada">
+    <p class="subtitulo">FORMACIÓN TÉCNICO PROFESIONAL</p>
+
+    <h1>Especialidad de Programación</h1>
 
     <p>
-        Esta es mi primera página publicada utilizando GitHub Pages.
-        Aquí presentaré mis conocimientos y proyectos de programación.
+        Transformando ideas en soluciones digitales
+        mediante la tecnología y la creatividad.
     </p>
 
-    <p>Aprendiendo HTML, CSS y JavaScript.</p>
+    <a href="#especialidad" class="boton">
+        Descubrir especialidad
+    </a>
+</section>
+
+<section id="especialidad" class="seccion">
+
+    <h2>¿Qué es la especialidad de Programación?</h2>
+
+    <p>
+        La especialidad de Programación está orientada al
+        desarrollo de habilidades tecnológicas que permiten
+        diseñar, crear y mantener aplicaciones y sitios web.
+    </p>
+
+    <p>
+        Durante la formación, los estudiantes aprenden diferentes
+        lenguajes de programación, herramientas digitales,
+        bases de datos y técnicas para resolver problemas
+        mediante soluciones informáticas.
+    </p>
+
+    <p>
+        Esta especialidad desarrolla el pensamiento lógico,
+        la creatividad, la responsabilidad y el trabajo en equipo,
+        preparando a los estudiantes para enfrentar los desafíos
+        del mundo tecnológico y laboral.
+    </p>
+
+    <div class="imagenes">
+        <img src="imagenes/programacion.jpg"
+             alt="Desarrollo de código informático">
+
+        <img src="imagenes/desarrollo.jpg"
+             alt="Desarrollo de aplicaciones y tecnología">
+    </div>
+
+</section>
+
+<section id="habilidades" class="seccion fondo">
+
+    <h2>Habilidades que se desarrollan</h2>
+
+    <p>
+        Durante la formación técnica se adquieren conocimientos
+        y habilidades fundamentales para el área informática.
+    </p>
+
+    <div class="tarjetas">
+
+        <div class="tarjeta">
+            <h3>Desarrollo web</h3>
+            <p>
+                Creación de páginas web utilizando HTML,
+                CSS y JavaScript.
+            </p>
+        </div>
+
+        <div class="tarjeta">
+            <h3>Bases de datos</h3>
+            <p>
+                Organización, almacenamiento y administración
+                de información mediante SQL.
+            </p>
+        </div>
+
+        <div class="tarjeta">
+            <h3>Algoritmos</h3>
+            <p>
+                Desarrollo del pensamiento lógico y creación
+                de instrucciones para resolver problemas.
+            </p>
+        </div>
+
+        <div class="tarjeta">
+            <h3>Desarrollo de software</h3>
+            <p>
+                Diseño y creación de programas y aplicaciones
+                informáticas.
+            </p>
+        </div>
+
+        <div class="tarjeta">
+            <h3>Trabajo en equipo</h3>
+            <p>
+                Colaboración y organización para desarrollar
+                proyectos tecnológicos.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<section id="proyectos" class="seccion">
+
+    <h2>Proyectos que se pueden desarrollar</h2>
+
+    <div class="tarjetas">
+
+        <div class="tarjeta">
+            <h3>Página web informativa</h3>
+            <p>
+                Sitio web que presenta información sobre
+                una institución, empresa o establecimiento.
+            </p>
+            <span>HTML · CSS · JavaScript</span>
+        </div>
+
+        <div class="tarjeta">
+            <h3>Sistema de asistencia</h3>
+            <p>
+                Aplicación que permite registrar y consultar
+                la asistencia de estudiantes.
+            </p>
+            <span>HTML · CSS · JavaScript · SQL</span>
+        </div>
+
+        <div class="tarjeta">
+            <h3>Sistema de inventario</h3>
+            <p>
+                Programa que permite administrar productos,
+                cantidades y registros de una empresa.
+            </p>
+            <span>Programación · SQL</span>
+        </div>
+
+    </div>
+</section>
+
+<section class="seccion fondo">
+
+    <h2>Explora proyectos de programación</h2>
+
+    <p>
+        GitHub permite compartir proyectos, consultar códigos
+        y conocer diferentes trabajos desarrollados
+        por programadores.
+    </p>
+
+    <a href="https://github.com/topics/web-development"
+       target="_blank" rel="noopener noreferrer"
+       class="boton">
+        Visitar proyectos en GitHub
+    </a>
+
+</section>
+
+<footer>
+    <h3>Especialidad de Programación</h3>
+    <p>Aprender, crear e innovar mediante la tecnología.</p>
+    <p>Proyecto educativo · 2026</p>
+</footer>
 
 </body>
 </html>
